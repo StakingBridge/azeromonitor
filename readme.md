@@ -28,7 +28,7 @@ apt install telegraf
 
 
 
-Modify the file /etc/telegraf/telegraf.conf and use this 👉[config file](https://github.com/StakingBridge/stafimonitor/blob/main/telegraf.conf).
+Modify the file /etc/telegraf/telegraf.conf and use this 👉[config file](https://github.com/StakingBridge/azeromonitor/blob/main/telegraf.conf).
 
 The file will be such that:
 

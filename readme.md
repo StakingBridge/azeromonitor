@@ -5,7 +5,7 @@
 This solution uses Telegraf, Prometheus and Grafana to provide users and node managers a monitoring tool to analyze CPU, RAM, network interfaces and I/O wait along with metrics from Aleph Zero Chain that will be displayed in the public dashboard. Why should you monitor your node using [the public dashboard](https://stafimonitor.stakingbridge.com/)?	
 - Control the use of resources in your server.
 - It allows you to detect problems, even before they happen.
-- Maximizes the security of the Azero network and minimizes the risk of slashing.
+- Maximizes the security of the $AZERO network and minimizes the risk of slashing.
 - Transparency: allows everyone to see how stable your validator works.
 
 ![](https://github.com/StakingBridge/azeromonitor/blob/main/1.png?raw=true)

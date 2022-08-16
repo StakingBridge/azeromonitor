@@ -1,15 +1,14 @@
 # Monitoring your Aleph Zero Validator 
 
-### Monitor your CPU, RAM, Network and StaFi Chain stats
+### Monitor your CPU, RAM, Network and Aleph Zero Chain stats
 
 This solution uses Telegraf, Prometheus and Grafana to provide users and node managers a monitoring tool to analyze CPU, RAM, network interfaces and I/O wait along with metrics from Stafi Chain that will be displayed in the public dashboard. Why should you monitor your node using [the public dashboard](https://stafimonitor.stakingbridge.com/)?	
 - Control the use of resources in your server.
-![](https://github.com/StakingBridge/stafimonitor/blob/main/images/fast_monitor.png?raw=true)
 - It allows you to detect problems, even before they happen.
-- Maximizes the security of the StaFi network and minimizes the risk of slashing.
+- Maximizes the security of the Azero network and minimizes the risk of slashing.
 - Transparency: allows everyone to see how stable your validator works.
 
-![](https://github.com/StakingBridge/stafimonitor/blob/main/images/network_monitoring.png?raw=true)
+![](https://github.com/StakingBridge/azeromonitor/blob/main/1.png?raw=true)
 
 ### 1. INSTALL TELEGRAF IN YOUR NODE SERVER
 

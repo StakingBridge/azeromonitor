@@ -2,7 +2,7 @@
 
 ### Monitor your CPU, RAM, Network and Aleph Zero Chain stats
 
-This solution uses Telegraf, Prometheus and Grafana to provide users and node managers a monitoring tool to analyze CPU, RAM, network interfaces and I/O wait along with metrics from Aleph Zero Chain that will be displayed in the public dashboard. Why should you monitor your node using [the public dashboard](https://stats.stakingbridge.com/d/azero_metrics/aleph-zero-metrics?orgId=1)?	
+This solution uses Telegraf, Prometheus and Grafana to provide users and node managers a monitoring tool to analyze CPU, RAM, network interfaces and I/O wait along with metrics from Aleph Zero Chain that will be displayed in the public dashboard. Why should you monitor your node using [the public dashboard](https://stats.stakingbridge.com)?	
 - Control the use of resources in your server.
 - It allows you to detect problems, even before they happen.
 - Maximizes the security of the $AZERO network and minimizes the risk of slashing.

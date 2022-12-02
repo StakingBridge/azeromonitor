@@ -1,4 +1,4 @@
-# Monitoring your Aleph Zero Validator 
+# Monitoring your Aleph Zero Validator on Testnet/Mainnet
 
 ### Monitor your CPU, RAM, Network and Aleph Zero Chain stats
 

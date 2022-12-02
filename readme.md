@@ -1,4 +1,5 @@
 # Monitoring your Aleph Zero Validator on Testnet/Mainnet
+## 💡 *The process is exactly the same for testnet/mainnet, be sure to choose the corresponding file in step 2.*
 
 ### Monitor your CPU, RAM, Network and Aleph Zero Chain stats
 
@@ -10,7 +11,6 @@ This solution uses Telegraf, Prometheus and Grafana to provide users and node ma
 
 ![](https://github.com/StakingBridge/azeromonitor/blob/main/1.png?raw=true)
 
-### 💡 *The process is exactly the same for testnet/mainnet, be sure to choose the corresponding file in step 2.*
 
 ### 1. INSTALL TELEGRAF IN YOUR NODE SERVER
 

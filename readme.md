@@ -1,4 +1,4 @@
-# 🖥 Monitoring your Aleph Zero Validator on Testnet/Mainnet
+# 🖥 ⚙️ Monitoring your Aleph Zero Validator on Testnet/Mainnet ⚙️ 🖥
 ## 💡 The process is exactly the same for testnet/mainnet, be sure to choose the corresponding file in step 2
 
 ### Monitor your CPU, RAM, Network and Aleph Zero Chain stats

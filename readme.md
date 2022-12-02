@@ -31,7 +31,7 @@ apt install telegraf
 Modify the file /etc/telegraf/telegraf.conf and use this 👉[config file for Testnet](https://github.com/StakingBridge/azeromonitor/blob/main/telegraf_testnet.conf) / [config file for Mainnet](https://github.com/StakingBridge/azeromonitor/blob/main/telegraf_mainnet.conf).
 
 The file will be such that:\
-**TESTNET**
+**AZERO TESTNET**
 ```
 # Global Agent Configuration >>TESTNET<<
 [agent]
@@ -65,7 +65,7 @@ The file will be such that:\
   password = "azeropassword"
 
 ```
-**MAINNET**
+**AZERO MAINNET**
 ```
 # Global Agent Configuration >>MAINNET<<
 [agent]

@@ -28,12 +28,12 @@ apt install telegraf
 
 
 
-Modify the file /etc/telegraf/telegraf.conf and use this 👉[config file](https://github.com/StakingBridge/azeromonitor/blob/main/telegraf.conf).
+Modify the file /etc/telegraf/telegraf.conf and use this 👉[config file for Testnet](https://github.com/StakingBridge/azeromonitor/blob/main/telegraf.conf) / [config file for Mainnet](https://github.com/StakingBridge/azeromonitor/blob/main/telegraf.conf).
 
-The file will be such that:
-
+The file will be such that:\
+**TESTNET**
 ```
-# Global Agent Configuration
+# Global Agent Configuration >>TESTNET<<
 [agent]
   hostname = "YOUR_NODE_ALIAS" # set this to a name you want to identify your node in the grafana dashboard
   flush_interval = "15s"
@@ -63,6 +63,40 @@ The file will be such that:
   urls = [ "https://stats.stakingbridge.com:8086" ] 
   username = "azero"
   password = "azeropassword"
+
+```
+**MAINNET**
+```
+# Global Agent Configuration >>MAINNET<<
+[agent]
+  hostname = "YOUR_NODE_ALIAS" # set this to a name you want to identify your node in the grafana dashboard
+  flush_interval = "30s"
+  interval = "30s"
+# Input Plugins
+[[inputs.cpu]]
+    percpu = true
+    totalcpu = true
+    collect_cpu_time = false
+    report_active = false
+[[inputs.disk]]
+    ignore_fs = ["devtmpfs", "devfs"]
+[[inputs.io]]
+[[inputs.mem]]
+[[inputs.net]]
+[[inputs.system]]
+[[inputs.swap]]
+[[inputs.netstat]]
+[[inputs.processes]]
+[[inputs.kernel]]
+[[inputs.diskio]]
+[[inputs.prometheus]]
+  urls = ["http://localhost:9615"]
+# Output Plugin InfluxDB
+[[outputs.influxdb]]
+  database = "azeromainnet"
+  urls = [ "https://stats.stakingbridge.com:8086" ] 
+  username = "azeromainnet"
+  password = "azeromainnetpassword"
 
 ```
 

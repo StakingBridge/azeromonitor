@@ -36,8 +36,8 @@ The file will be such that:\
 # Global Agent Configuration >>TESTNET<<
 [agent]
   hostname = "YOUR_NODE_ALIAS" # set this to a name you want to identify your node in the grafana dashboard
-  flush_interval = "15s"
-  interval = "15s"
+  flush_interval = "30s"
+  interval = "30s"
 # Input Plugins
 [[inputs.cpu]]
     percpu = true

@@ -14,13 +14,9 @@ This solution uses Telegraf, Prometheus and Grafana to provide users and node ma
 
 ### 1. INSTALL TELEGRAF IN YOUR NODE SERVER
 
-**UBUNTU 20.04**
+**UBUNTU**
 
 ```
-
-wget -qO- https://repos.influxdata.com/influxdb.key | sudo tee /etc/apt/trusted.gpg.d/influxdb.asc >/dev/null
-source /etc/os-release
-echo "deb https://repos.influxdata.com/${ID} ${VERSION_CODENAME} stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
 apt update
 apt install telegraf
 
